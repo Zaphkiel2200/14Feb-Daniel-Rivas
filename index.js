@@ -35,4 +35,9 @@ class Animal {
   const Perrito = new Dog('Perrito2', 10);
   console.dir(Perrito);
   Perrito.sound();  
+
+  const { nameDog, ageDog, pawsDog, barkSoundDog } = Perrito;
+  console.log(nameDog, ageDog, pawsDog, barkSoundDog);
+
+  const Perrito2 = new Dog('Perrito3', 10);
   
