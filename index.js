@@ -3,10 +3,15 @@ class animal {
     this.name = name;
     this.age = age;
     this.paws = 4;
+
   }
+  sound() {
+    console.log ('Animal sound by ${this.name}');
+    return 0;
+  }
+
 }
 
-sound() {
-    console.log('An animal sound');
-    return 'An animal sound';
-    }
+const Obj = new animal('Perrito', 5);
+Obj.sound();
+console.log(Obj.paws);
