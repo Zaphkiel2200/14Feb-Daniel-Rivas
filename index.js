@@ -24,11 +24,11 @@ class Animal {
   class Dog extends Animal {
     constructor(name, age) {
       super(name, age);
-      this.barkSound = 'guau'; // Usamos un nombre diferente para no sobrescribir el método
+      this.barkSound = 'guau'; 
     }
   
     sound() {
-      console.log(`${this.name} says: ${this.barkSound}`);
+      console.log(`${this.name} says: ${this.barkSound}`);  
     }
   }
   
